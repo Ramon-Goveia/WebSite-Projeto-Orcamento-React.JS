@@ -37,4 +37,4 @@ Instalar o ReactStrap
 ### npm install --save reactstrap react react-dom
 
 #
-![](https://github.com/Ramon-Goveia/WebSite-Projeto-Orcamento-React.JS/blob/master/screenshot_20201210_130143.png)
+![](https://github.com/Ramon-Goveia/WebSite-Projeto-Orcamento-React.JS/blob/master/screenshot_20201210_181306.png)
