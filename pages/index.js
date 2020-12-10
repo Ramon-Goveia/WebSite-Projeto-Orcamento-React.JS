@@ -9,6 +9,10 @@ import {
     NavLink,
     Container,
     Jumbotron,
+    Form,
+    FormGroup,
+    Label,
+    Input,
     Button
 } from 'reactstrap'
 
@@ -35,13 +39,33 @@ function HomePage() {
 
             <Jumbotron>
                 <Container>
-                    <h1 className="display-3">Hello, world!</h1>
-                    <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <hr className="my-2" />
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <p className="lead">
-                        <Button color="primary">Learn More</Button>
-                    </p>
+                    <h1 className="display-4 text-center">Nossos consultores estão prontos para lhe ajudar!</h1>
+                    <p className="lead text-center">Deixe seus contatos abaixo que em breve retornaremos com uma propósta específica para sua necessidade.</p>
+
+                    <Form>
+                        <FormGroup>
+                            <Label for="name">Nome</Label>
+                            <Input type="text" name="name" id="name" placeholder="Preencha com o nome completo" />
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="email">Email</Label>
+                            <Input type="email" name="email" id="email" placeholder="Preencha com seu melhor email" />
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="phone">Telefone</Label>
+                            <Input type="text" name="phone" id="phone" placeholder="(XX) XXXX-XXXX" />
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="whatsapp">Whatsapp</Label>
+                            <Input type="text" name="whatsapp" id="whatsapp" placeholder="(XX) XXXX-XXXX" />
+                        </FormGroup>
+                        <FormGroup>
+                            <Label for="msg">Conteúdo</Label>
+                            <Input type="textarea" name="msg" id="msg" placeholder="Fale um pouco sobre seu projeto" />
+                        </FormGroup>
+
+                        <Button type="submit" outline color="info">Enviar</Button>
+                    </Form>
                 </Container>
             </Jumbotron>
         </div>
