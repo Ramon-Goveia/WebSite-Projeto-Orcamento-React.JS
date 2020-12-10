@@ -17,6 +17,7 @@ Rodar o projeto
 #
 
 SEQUENCIA EXECUTADAS E BIBLIOTECAS INSTALADAS
+
 Criar o arquivo package.json
 ### npm init
 
