@@ -37,10 +37,19 @@ function HomePage() {
                 </Container>
             </Navbar>
 
-            <Jumbotron>
+            <Jumbotron className="pg-orcamento"> 
+                <style>
+                    {`.pg-orcamento{
+                        backgrownd-color: #f5fbfa;
+                        color: #17a2b8;
+                        padding-top: 50px;
+                        padding-bottom: 150px;
+                        margin-bottom: 0rem !important;
+                    }`}
+                </style>
                 <Container>
                     <h1 className="display-4 text-center">Nossos consultores estão prontos para lhe ajudar!</h1>
-                    <p className="lead text-center">Deixe seus contatos abaixo que em breve retornaremos com uma propósta específica para sua necessidade.</p>
+                    <p className="lead text-center mb-4">Deixe seus contatos abaixo que em breve retornaremos com uma propósta específica para sua necessidade.</p>
 
                     <Form>
                         <FormGroup>
